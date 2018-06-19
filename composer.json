@@ -1,0 +1,14 @@
+{
+    "name": "rozdol/numop-skel",
+    "description": "Test skeleton app",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6",
+        "rozdol/numop": "1.*"
+    },
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
