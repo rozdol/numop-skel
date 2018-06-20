@@ -25,7 +25,7 @@
     },
     "extra":
     {
-        "installer-types" : [ "library" , "bower-asset","vanilla-theme"],
+        "installer-types" : [ "library" , "bower-asset", "vanilla-theme"],
         "installer-paths":
         {
             "public/{$name}": ["type:vanilla-theme"]
