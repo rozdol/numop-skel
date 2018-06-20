@@ -17,7 +17,8 @@
     "require": {
         "php": ">=5.6",
         "rozdol/numop": "1.*",
-        "rozdol/numop-assets": "1.*"
+        "rozdol/numop-assets": "1.*",
+        "rozdol/numop-src": "1.*"
     },
     "prefer-stable": true,
     "config": {
@@ -25,10 +26,10 @@
     },
     "extra":
     {
-        "installer-types" : ["vanilla-theme"],
         "installer-paths":
         {
-            "public/{$name}": ["type:vanilla-theme"]
+            "public/{$name}": ["rozdol/numop-assets"]
+            "{$name}": ["rozdol/numop-src"]
         }
     }
 }
