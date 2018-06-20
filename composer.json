@@ -4,20 +4,20 @@
     "type": "project",
     "license": "MIT",
     "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:rozdol/numop-assets.git"
-        },
+
         {
             "type": "vcs",
             "url": "git@github.com:rozdol/numop.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:rozdol/numop-assets.git"
         }
     ],
     "require": {
         "php": ">=5.6",
         "rozdol/numop": "1.*",
-        "rozdol/numop-assets": "1.*",
-        "composer/installers": "^1.1"
+        "rozdol/numop-assets": "1.*"
     },
     "prefer-stable": true,
     "config": {
@@ -25,7 +25,7 @@
     },
     "extra":
     {
-        "installer-types" : [ "library" , "bower-asset", "vanilla-theme"],
+        "installer-types" : ["vanilla-theme"],
         "installer-paths":
         {
             "public/{$name}": ["type:vanilla-theme"]
