@@ -13,6 +13,11 @@
             "type": "vcs",
             "url": "git@github.com:rozdol/numop-assets.git"
         }
+        ,
+                {
+                    "type": "vcs",
+                    "url": "git@github.com:rozdol/numop-src.git"
+                }
     ],
     "require": {
         "php": ">=5.6",
@@ -25,7 +30,7 @@
         "installer-paths":
         {
             "public/{$name}": ["rozdol/numop-assets"],
-            "{$name}": ["rozdol/numop-src"]
+            "../{$name}": ["rozdol/numop-src"]
         }
     }
 }
