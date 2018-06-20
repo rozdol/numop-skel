@@ -28,7 +28,7 @@
     {
         "installer-paths":
         {
-            "public/{$name}": ["rozdol/numop-assets"]
+            "public/{$name}": ["rozdol/numop-assets"],
             "{$name}": ["rozdol/numop-src"]
         }
     }
