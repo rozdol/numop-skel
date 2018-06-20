@@ -69,3 +69,8 @@ git clone git@github.com:rozdol/numop-skel.git
 ```bash
 git clone git@github.com:rozdol/numop-assets.git
 ```
+# Clonning the Projec src
+
+```bash
+git clone git@github.com:rozdol/numop-assets.git
+```

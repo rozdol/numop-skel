@@ -20,10 +20,6 @@
         "rozdol/numop-assets": "1.*",
         "rozdol/numop-src": "1.*"
     },
-    "prefer-stable": true,
-    "config": {
-        "sort-packages": true
-    },
     "extra":
     {
         "installer-paths":
